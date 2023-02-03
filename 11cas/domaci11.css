@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  padding: 0;
+
+  font-family: "montserrat";
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-image: url(https://sandzakpress.net/wp-content/uploads/2018/05/flag_of_sandzak_by_supersayenz_by_supersayenz-d700nwt.png);
+
+  background-size: cover;
+
+  box-sizing: border-box;
+}
+
+nav {
+  float: left;
+
+  display: inline;
+
+  background: rgb(6, 153, 40);
+
+  height: 80px;
+
+  width: 100%;
+
+  line-height: 80px;
+
+  font-weight: bold;
+
+  color: rgb(0, 0, 0);
+}
+
+.img {
+  height: 80px;
+}
+
+nav ul {
+  float: right;
+
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+
+  line-height: 80px;
+
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+
+  padding: 7px 13px;
+
+  border-radius: 3px;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+a .active,
+a:hover {
+  background: #b0e8c1;
+
+  transition: 0.5s;
+}
+
+.card-box {
+  width: 250px;
+
+  height: 300px;
+
+  border: none;
+
+  border-radius: 15px;
+
+  display: inline-block;
+
+  margin: 40px;
+
+  background-color: #b0e8c1;
+
+  cursor: pointer;
+
+  box-shadow: 0 9px 7px 0;
+}
+
+.img-box {
+  width: 250px;
+  display: inline-block;
+
+  height: 150px;
+
+  border-radius: 15px 15px 0 0;
+}
+
+.text {
+  width: 250px;
+
+  padding: 10px;
+
+  font-size: medium;
+
+  font-family: "Times New Roman";
+
+  color: rgb(7, 7, 159);
+}
+
+.card-box:hover {
+  background: #b0e8c0f3;
+
+  transition: 0.5s;
+}
+
+.img-box:hover {
+  background: #b0e8c3;
+
+  transition: 0.5s;
+
+  padding: 10px;
+}
+
+.head {
+  padding-top: 40px;
+
+  text-align: center;
+}
+
+.par {
+  margin-top: 5px;
+
+  padding: 2px;
+
+  font-size: large;
+
+  text-align: center;
+
+  font-weight: 600;
+
+  color: rgb(0, 0, 0);
+}
